@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+  }
+  
+  main {
+  display: block;
+  }
+
+  header{
+    border-style: solid;
+    border-color: rgb(119, 30, 119);
+    height: 120px;
+    
+  }
+
+  section {
+    border-style: solid;
+    border-color: rgb(3, 214, 3);
+  }
+  main {
+    border-style:solid;
+    border-color: red;
+    border-width:1px;
+    }
+  .contenedor {
+    border-style: solid;
+    border-color : blue;
+    width: 700px;
+    height: 500px;
+
+  }
+  nav{
+      font-size: 40px;
+      text-align: center;
+  }
+
