@@ -1,20 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
-    <header class="cabecera-principal">Barra de herramientas</header>
-    <section class="seccion-principal">
-        <aside>CONTENIDO SECUNDARIO</aside>
-        <MAin class="main-principal">
-            <header>Sub Barra de herramientas</header>
-            <section>soy la seccion grande</section>
-        </MAin>
-    </section>
-</body>
-</html>
+body{
+  margin: 0;
+  border: 4px solid #fa4252;
+  height: 604px;
+
+}
+main{
+  display: block;
+}
+.cabecera-principal{
+   border: 4px solid #7e0cf5;
+   height: 100px;
+}
+
+.seccion-principal{
+  border: 4px solid cyan;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  height: 488px;
+}
+
+.seccion-principal aside{
+  border: 4px solid #91bd3a;
+}
+
+.main-principal{
+  border: 4px solid blue ;
+}
+.main-principal header {
+  border: 3px solid orange;
+  height: 40px;
+}
+
+.main-principal section {
+  border: 3px solid violet;
+  height: 429px;
+}
+
+
