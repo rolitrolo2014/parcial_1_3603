@@ -10,6 +10,7 @@ main{
 .cabecera-principal{
    border: 4px solid #7e0cf5;
    height: 100px;
+   text-align: center;
 }
 
 .seccion-principal{
@@ -25,6 +26,7 @@ main{
 
 .main-principal{
   border: 4px solid blue ;
+  text-align: center;
 }
 .main-principal header {
   border: 3px solid orange;
@@ -35,5 +37,9 @@ main{
   border: 3px solid violet;
   height: 429px;
 }
+aside{
+  text-align: center;
+}
+
 
 
